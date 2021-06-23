@@ -9,6 +9,7 @@ function calcQueens(size) {
   } else {
     console.log(`一共有${output.length}种解法`)
   }
+  exportToSVG(output, size)
 }
 
 function subquestion(board, currentColumn, size, output) {
@@ -49,4 +50,4 @@ function noConflicts(board, currentColumn) {
   return true
 }
 
-calcQueens(16)
+calcQueens(8)
