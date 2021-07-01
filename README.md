@@ -12,11 +12,15 @@
 npm run n-queens
 ```
 
+<img src='output/n-queens.svg'/>
+
 * 迷宫演算法
 
 ``` bash
 npm run maze-bt-generator
 ```
+
+<img src='output/maze.svg'/>
 
 ## 引用
 
