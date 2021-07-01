@@ -64,18 +64,23 @@ class Node {
       stroke: 'black'
     }
     );
-    this.childs.push(new Node(svgPath))
+    this.appendChild(new Node(svgPath))
   }
 }
 
 class SVGGenerator {
 
-  createLayout(width, height) {
-    const svg = new Element('svg').attr({
-      xmlns: "http://www.w3.org/2000/svg",
-      width, height
-    });
+  createLayout(param1, param2) {
+    const svg = new Element('svg').attr({ xmlns: "http://www.w3.org/2000/svg" })
+    if (typeof param1 === 'number' && typeof param2 === 'number') {
+      svg.attr({ width, height });
+    }
+
+    if (typeof param1 === 'object' && param1 !== null) {
+      svg.attr(param1)
+    }
     this.root = new Node(svg)
+    return this
   }
 
   getRoot() {
@@ -88,6 +93,12 @@ class SVGGenerator {
 
   setChilds(nodes) {
     this.root.childs = nodes
+  }
+
+  createGroup(nodes) {
+    const group = new Node(new Element('g'))
+    nodes.forEach(node => group.appendChild(node))
+    return group
   }
 
   render() {

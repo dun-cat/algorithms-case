@@ -11,6 +11,7 @@ function exportToSVG(data, size) {
   let x = 0, y = 0, count = 0
   let groups = []
   data.forEach((item, index) => {
+    // 获取单个棋盘
     const group = getGroupItem(item, size, blockWidth)
     group.value.attr({ transform: `translate(${x} ${y})` })
     groups.push(group)

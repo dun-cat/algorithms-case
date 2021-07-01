@@ -5,7 +5,8 @@
   "main": "n-queens.js",
   "scripts": {
     "start": "node n-queens.js",
-    "n-queens": "node n-queens.js"
+    "n-queens": "node n-queens.js",
+    "maze-bt-generator": "node maze.js"
   },
   "repository": {
     "type": "git",
