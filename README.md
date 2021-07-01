@@ -28,4 +28,4 @@ npm run maze-bt-generator
 
 [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)，该项目提供了常见的数据结构（树、图、队列、栈，哈希表等等），并提供了相对于的操作算法（添加、查找、删除、更新）。
 
-[H.urna](https://hurna.io/index.html)，提供
+[H.urna](https://hurna.io/index.html)，提供了迷宫的各种生成和寻路算法的源码，并且它还是一个迷宫算法可视化工具。
