@@ -7,9 +7,18 @@
 ### 用例列表
 
 * 八皇后疑惑
+
+``` bash
+npm run n-queens
+```
+
 * 迷宫演算法
 
-### 引用
+``` bash
+npm run maze-bt-generator
+```
+
+## 引用
 
 [bastion](https://github.com/albertngo1/bastion)，一个非常棒用于学习迷宫算法的可视化项目，包含多种迷宫`生成`算法和`解决器`。
 
