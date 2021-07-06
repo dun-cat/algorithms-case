@@ -104,6 +104,8 @@ function binaryTreeMaze() {
       mazeMatrix[x][y].removeWalls(mazeMatrix[x1][y1]);
     }
   }
+  mazeMatrix[0][0].walls[3] = false
+  mazeMatrix[cols - 1][rows - 1].walls[1] = false
   return mazeMatrix
 }
 

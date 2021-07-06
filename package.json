@@ -4,9 +4,9 @@
   "description": "算法设计范式用例",
   "main": "n-queens.js",
   "scripts": {
-    "start": "node n-queens.js",
     "n-queens": "node n-queens.js",
-    "maze-bt-generator": "node maze.js"
+    "maze-bt-generator": "node maze.js",
+    "hanoi": "node cases/tower-of-hanoi/index.js"
   },
   "repository": {
     "type": "git",
