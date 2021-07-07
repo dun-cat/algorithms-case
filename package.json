@@ -6,7 +6,8 @@
   "scripts": {
     "n-queens": "node n-queens.js",
     "maze-bt-generator": "node maze.js",
-    "hanoi": "node cases/tower-of-hanoi/index.js"
+    "hanoi": "node cases/tower-of-hanoi/index.js",
+    "coloring-china-map": "node cases/coloring-china-map/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/dun-cat/algorithms-case/issues"
   },
-  "homepage": "https://github.com/dun-cat/algorithms-case#readme"
+  "homepage": "https://github.com/dun-cat/algorithms-case#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
 }

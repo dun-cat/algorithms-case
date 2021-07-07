@@ -1,3 +1,6 @@
+
+var xml2js = require('xml2js');
+
 const SVGGenerator = require('./svg-generator');
 const { Element, Node } = SVGGenerator
 
@@ -71,6 +74,17 @@ function getGroupItem(data, size, blockWidth) {
 }
 
 
+function xmlParser(xmlBasedString, options = {}) {
+  var parser = new xml2js.Parser(options);
+  return parser.parseStringPromise(xmlBasedString)
+}
+
+function obj2xml(obj) {
+  const builder = new xml2js.Builder();
+  const xmlString = builder.buildObject(obj);
+  return xmlString
+}
+
 module.exports = {
-  exportToSVG
+  exportToSVG, xmlParser, obj2xml
 }
