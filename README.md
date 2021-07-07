@@ -28,9 +28,9 @@ npm run maze-bt-generator
 npm run coloring-china-map
 ```
 
-<img src='cases/coloring-china-map/uncolor-model.svg'/>
+<img src='cases/coloring-china-map/colored-model.svg'/>
 
-<img src='cases/coloring-china-map/uncolor-map.svg'/>
+<img src='cases/coloring-china-map/colored-map.svg'/>
 
 ## 引用
 
