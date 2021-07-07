@@ -20,6 +20,8 @@ npm run n-queens
 npm run maze-bt-generator
 ```
 
+<img src='output/maze.svg'/>
+
 ### 贪心算法
 
 * 着色问题
