@@ -20,7 +20,17 @@ npm run n-queens
 npm run maze-bt-generator
 ```
 
-<img src='output/maze.svg'/>
+### 贪心算法
+
+* 着色问题
+
+``` bash
+npm run coloring-china-map
+```
+
+<img src='cases/coloring-china-map/uncolor-model.svg'/>
+
+<img src='cases/coloring-china-map/uncolor-map.svg'/>
 
 ## 引用
 
